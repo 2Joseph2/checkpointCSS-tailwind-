@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTAURANT</title>
+  <!-- Link to Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <!-- header + navbar -->
+  <header class="bg-yellow-400 text-white py-4 px-8 flex justify-between items-center">
+    <h1>My Restaurant</h1>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><i class="bi bi-house-fill"></i>Home</li>
+        <li><i class="bi bi-list"></i>Menu</li>
+        <li><i class="bi bi-person-lines-fill"></i>Contact</li>
+        <li>
+          <form class="flex" role="search">
+            <input class="form-input me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-warning" type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header> 
+  <!-- section home -->
+  <section id="home" class="bg-yellow-400 py-20 text-center">
+      <div class="tmatem">
+        <h2>Welcome to My <span id="clr">Restaurant</span></h2>
+        <button class="btn btn-warning" type="submit">more info</button>
+      </div>
+  </section>
+  <!-- section menu -->
+  <section id="menu" >
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="d1">
+        <div >
+            <img src="../src/burger.jpg" alt="Dish 1" class="img-fluid rounded">
+            <h3>Burger</h3>
+            <p>BEEF BURGER</p>
+            <p><strong>$25</strong></p>
+        </div>
+        <div >
+            <img src="../src/pizza.jpg" alt="Dish 2" class="img-fluid rounded">
+            <h3>Pizza</h3>
+            <p>Pizza peperoni</p>
+            <p><strong>$25</strong></p>
+        </div>
+        <div >
+            <img src="../src/pasta.jpg" alt="Dish 3" class="img-fluid rounded">
+            <h3>Pasta</h3>
+            <p>PASTA</p>
+            <p><strong>$20</strong></p>
+        </div>
+    </div>
+    <p></p>
+    <div class="d1">
+      <div >
+          <img src="../src/fries.jpg" alt="Dish 1" class="img-fluid rounded">
+          <h3>Fries</h3>
+          <p>FRENCH FRIES</p>
+          <p><strong>$10</strong></p>
+      </div>
+      <div >
+          <img src="../src/sandwitch.jpg" alt="Dish 2" class="img-fluid rounded">
+          <h3>Sandwitch</h3>
+          <p>SANDWITCH</p>
+          <p><strong>$15</strong></p>
+      </div>
+      <div >
+          <img src="../src/lasagna.jpg" alt="Dish 3" class="img-fluid rounded">
+          <h3>lasagna</h3>
+          <p>LASAGNA</p>
+          <p><strong>$20</strong></p>
+      </div>
+  </div>
+</section>
+    <!-- Menu items here -->
+    </div>
+  </section>
+  <!-- section contact -->
+ <section id="contact" class="bg-yellow-400 py-20">
+ <div class="container mx-auto">
+  <form >
+    <table class="mx-auto">
+      <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input class="form-input" type="text" name="name"></td>
+      </tr>
+      <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input class="form-input" type="email"  name="email"></td>
+      </tr>
+      <tr>
+          <td><label for="subject">Subject:</label></td>
+          <td><input class="form-input" type="text"  name="subject"></td>
+      </tr>
+      <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea class="form-textarea" name="message" rows="5" cols="30"></textarea></td>
+      </tr>
+      <tr>
+          <td colspan="2" class="text-center"><input class="btn btn-warning" type="submit" value="Submit"></td>
+      </tr>
+  </table>
+  </form>
+ </div>
+ </section>
+ <!-- footer -->
+  <footer class="bg-yellow-400 text-white py-4 px-8 text-center">
+    <p>&copy; 2024 My Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

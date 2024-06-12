@@ -1,0 +1,138 @@
+$c1:rgb(255, 125, 41);
+$c2:rgb(255, 191, 120);
+$c3:rgb(255, 238, 169);
+$c4:rgb(254, 255, 210);
+
+body{
+    background-color: $c2;
+}
+
+header{
+   background-color: $c1;
+   color: $c4;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   nav{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            li{
+                padding: 15px;
+            }
+         }
+   }
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    background-color: $c2;
+    display: flex;
+    justify-content: center;
+    div{
+        background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    background-color: $c1;
+    }
+}
+
+form table {
+    width: 100%;
+}
+
+form table tr td {
+    padding: 8px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#menu{
+    padding-top: 100px;
+    background-color: $c2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    h2{
+        text-align: center;
+        text-shadow: 0 0 10px $c4;
+        color: $c1;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .d1{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        div{
+        width: 30%;
+        border: 5px solid $c1;
+        border-radius: 15px;
+        margin: 10px;
+        }
+    }
+}
+#home {
+    background-color: $c2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: green;
+    .tmatem {
+        width: 100%; /* Add width to the .hm class */
+        height: 400px; /* Adjust height as needed */
+        background: url('../src/bg.jpg') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            text-shadow:0 0 10px rgba(0, 0, 0, 0.1) ;
+        }
+    }
+}
+#clr{
+    color: $c1;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    background-color: $c1;
+    display: flex;
+    justify-content: center;
+}

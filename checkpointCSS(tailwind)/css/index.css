@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(255, 191, 120);
+}
+
+header {
+  background-color: rgb(255, 125, 41);
+  color: rgb(254, 255, 210);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header nav ul li {
+  padding: 15px;
+}
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 25px;
+  background-color: rgb(255, 191, 120);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#contact div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  background-color: rgb(255, 125, 41);
+}
+
+form table {
+  width: 100%;
+}
+
+form table tr td {
+  padding: 8px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+#menu {
+  padding-top: 100px;
+  background-color: rgb(255, 191, 120);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#menu h2 {
+  text-align: center;
+  text-shadow: 0 0 10px rgb(254, 255, 210);
+  color: rgb(255, 125, 41);
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#menu .d1 {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#menu .d1 div {
+  width: 30%;
+  border: 5px solid rgb(255, 125, 41);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#home {
+  background-color: rgb(255, 191, 120);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: green;
+}
+#home .tmatem {
+  width: 100%; /* Add width to the .hm class */
+  height: 400px; /* Adjust height as needed */
+  background: url("../src/bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#home .tmatem h2 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#clr {
+  color: rgb(255, 125, 41);
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  background-color: rgb(255, 125, 41);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
